@@ -32,3 +32,17 @@ print("Este es el valor de:", my_bool_variable)
 
 ## Algunas funciones de Sistema
 print(len(my_string_variable))
+
+## Inputs
+"""first_name = input("Cual es tu nombre?: ")
+age = input("Que edad tienes:¿? ")
+
+print(first_name)
+print(age)"""
+
+
+## ¿Forzamos el tipado de la variable?
+mi_variable_str: str = "Mi variable"
+mi_variable_str = 32
+print(mi_variable_str)
+print(type(mi_variable_str))
