@@ -1,0 +1,15 @@
+numero = 10
+
+while numero >= 0:
+    print(f"El numero es: {numero}")
+    numero = numero - 1
+print("|==========================|")
+
+numero = 50
+
+while numero >= 0:
+    if numero % 5 == 0:
+        print(numero)
+        numero = numero - 1
+    else:
+        numero = numero - 1
